@@ -109,7 +109,7 @@ body {
   margin: auto;
 }
 
-.info {
+.info{
   padding: 170px 0;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .info__list {
   column-count: 2;
-  gap: 140px;
+  gap: 109px;
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
@@ -184,4 +184,140 @@ body {
   max-width: 100%;
 }
 
-.tag
+.color__text {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 160px;
+  text-transform: uppercase;
+  color: #13171c;
+}
+
+.color__galler {
+  background: #13171c;
+}
+
+.color__galery__start,
+.color__galery__end {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery__box {
+  padding: 170px 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.gallery__box img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+.gallery__box p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.contacts {
+  padding: 170px 0 114px 0;
+  background: #13171c;
+}
+
+.contacts__title {
+  margin-bottom: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff5017;
+  font-size: 36px;
+}
+
+.contacts__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 200px;
+  padding-left: 300px;
+  padding-right: 150px;
+}
+
+.contacts__info {
+  max-width: 565px;
+}
+
+.contacts__headtext {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #bcbcbc;
+}
+
+.contacts__text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 477px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.contacts__info a {
+  font-size: 24px;
+  color: #fff;
+}
+
+.contacts__text__rules {
+  max-width: 329px;
+  margin-top: 77px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.form {
+  flex-basis: 594px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 594px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+
+}
+
+.form__input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.form__order {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  background: #13171c;
+  padding-bottom: 87px;
+}
+
+.footer__link {
+  font-size: 14px;
+  color: #fff;
+}
